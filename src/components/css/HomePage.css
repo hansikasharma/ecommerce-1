@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+form{
+	font-family: 'Montserrat', sans-serif;
+
+	display: flex;
+	
+	justify-content: center;
+	flex-wrap: wrap;
+	width: clamp(300px, 50%, 700px);
+	margin: 1rem auto;
+	border: 1px solid #06283d;
+	border-radius: 20px;
+	padding: 20px;
+}
+.form-input{
+	width:clamp(200px,60%,1000px);
+	
+	border-radius: 5px;
+	border:1px solid #06283d;
+	padding: 10px;
+	
+}
+form > button {
+	margin: 2rem 30%;
+}
+input:focus{
+	outline:none;
+}
